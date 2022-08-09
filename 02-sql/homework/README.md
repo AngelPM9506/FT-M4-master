@@ -20,7 +20,7 @@ Ahora editá el contenido de ese archivo para que quede como lo siguiente:
 ```
 .header on
 .mode column
-.timer o
+.timer 0
 ```
 Estos ajustes van a hacer que el output de SQLite sea un poco más amigable.
 

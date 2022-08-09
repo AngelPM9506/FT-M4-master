@@ -1,3 +1,9 @@
+/*
+ Recomendado de usar antes que nada 
+ .header on
+ .mode column
+ .timer 0
+ */
 /*Birthyear*/
 SELECT *
 FROM movies
