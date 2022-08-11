@@ -1,8 +1,8 @@
 const app = require('./server');
-const { db } = require('./db');
-const PORT = 3000;
+const { db, Ability } = require('./db');
+const { PORT_SERVER } = require('dotenv').config().parsed;
 
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+app.listen(PORT_SERVER, async () => {
+  console.log(`Server listening on port ${PORT_SERVER}`);
   db.sync({ force: true });
 });
